@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+/*selectores de etiqueta*/
+*{
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	margin:0 ;
+	padding:0 ;
+}
+html{
+	font-size: 62.5%;
+	color: gainsboro;
+}
+*{
+	background-color:black;
+}
+@keyframes alfa{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+strong{
+		animation-name: alfa;
+		animation-duration: 2s;	
+		animation-timing-function: ease-in-out
+}	
+p{
+		animation-name: alfa;
+		animation-duration: 2s;	
+		animation-timing-function: ease-in-out
+}
+	.scale:hover{
+	transform: scale(1.6);
+}
+	.accordion-button{
+		background-color: black;
+		color: gainsboro;
+}
+	.accordion-button:not(.collapsed){
+		background-color:gray;
+		color: gainsboro;
+}
+	#bg-white{
+		text-align: center;
+		color:gainsboro;
+}
+	#barra img{
+	width: 230px;
+}
+	.fotos{
+	max-height: 600px;
+}
+	.interlineado{
+		line-height: 2;
+		font-size: 2rem;
+		color: gainsboro;
+}
+	.titulo{
+	font-size: 2rem;
+	color: gainsboro;
+	font-style: italic;
+}
+	#nos{
+	    color: gainsboro;
+		text-align: center;
+}
+	#mis{
+		color: gainsboro;
+		text-align: center;
+}
+	#vis{
+		color: gainsboro;
+		text-align: center;
+}
+	#baner{
+	position: absolute;
+	justify-items: center;
+}
+	.base{
+	grid-area: footer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+	.base img{
+	width:40px;
+	max-width:100%;
+}
+	.lado{
+	margin: 30px;
+}
+	.botton{
+	background-color: gainsboro;
+	color: black;
+}
+@media (min-width: 250px) and (max-width: 330px){
+	#barra img{
+		width:150px;
+	}	
+}
+@media (min-width: 250px) and (max-width: 600px){
+	.video{
+		width: 250px;
+	}
+}
