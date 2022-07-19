@@ -1,0 +1,42 @@
+*{
+	font-family:$mainFont;
+	margin:0 ;
+	padding:0 ;
+}
+html{
+	font-size:$fontSize ;
+}
+*{
+	background-color:$mainColor;
+}
+.card-more{
+	width: 100%;
+	background-color:$mainColor;
+	border: none;
+	font-family: $mainFont;
+	color: $secondaryColor;
+}
+.card-text {
+	@extend .card-text;
+	text-align: center;
+	font-size:$textLg; 
+}
+@keyframes alfa{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+strong{
+		animation-name: alfa;
+		animation-duration: 2s;	
+		animation-timing-function: ease-in-out;
+}
+@media (min-width: 250px) and (max-width: 330px){
+	#barra img{
+		width:150px;
+	}	
+}
+@media (min-width: 250px) and (max-width: 600px){
+	.video{
+		width: 250px;
+	}
+}

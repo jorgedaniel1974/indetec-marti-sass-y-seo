@@ -1,0 +1,16 @@
+$paleta:(
+	"uno" :#040404,
+	"dos" :#5E5D5D,
+	"tres" :#BEB9B9,
+	"cuatro":#orangered,
+	);
+.accordion-button{
+	background-color: map-get($map: $paleta, $key:"dos");
+	color: map-get($map: $paleta, $key:"uno");
+}
+.interior{
+	background-color: map-get($map: $paleta, $key:"dos");
+}
+.accordion-header{
+	background-color: map-get($map: $paleta, $key:"uno");
+}

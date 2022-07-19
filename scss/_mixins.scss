@@ -1,0 +1,15 @@
+@mixin texto($tamaño, $interlineado, $color){
+		font-family: $mainFont;
+		font-size: $tamaño;
+		line-height: $interlineado;
+		color: $secondaryColor;
+		padding: 4px;
+		margin: 5px;
+		text-align: center;
+		line-height: 2.5;
+		animation-name: alfa;
+	    animation-duration: 3s; 
+	    animation-timing-function: ease-in-out;
+	}
+
+	

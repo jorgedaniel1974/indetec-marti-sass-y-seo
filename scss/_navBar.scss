@@ -1,0 +1,45 @@
+.botonera{
+				background-color:$mainColor;
+				padding: 5px 10px;
+				display:flex;
+				display: block;
+				justify-content:space-between;
+				align-items:center;
+				img{
+				width: 350px;
+				position: relative;
+				top: 15px;
+				left: 20px;
+				}
+	ul{
+				display: inline-block;
+	 
+	li{
+				position: relative;
+				width: 100px;
+				top: 10px;
+				left: 500px;
+				display: inline-block;
+				list-style: none;
+
+	a{
+				font-family:$mainFont;
+				font-size:$textMd;
+				list-style: none;
+				text-decoration: none;
+				color:$Color;
+				&:hover{
+				color:$keyColor; 
+				}
+			}
+		}
+	}	
+}
+.titulo{
+	font-size: 2rem;
+	color: gainsboro;
+	font-style: italic;
+}
+#barra img{
+	width: 230px;
+}

@@ -1,0 +1,7 @@
+User-Agent:*
+
+Disallow:/bocetos
+
+User-Agent:Googlebot-image
+Disallow:/fuentes
+

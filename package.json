@@ -1,0 +1,26 @@
+{
+  "name": "indetec-marti-sass-y-seo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm     run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgedaniel1974/indetec-marti-sass-y-seo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgedaniel1974/indetec-marti-sass-y-seo/issues"
+  },
+  "homepage": "https://github.com/jorgedaniel1974/indetec-marti-sass-y-seo#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
