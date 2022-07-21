@@ -23,3 +23,11 @@
 	.scale:hover{
 	transform: scale(1.6);
 }
+.btn-botton{
+	background-color:gray;
+	color:$mainColor; 
+	border: none;
+	font-family:$mainFont;
+	font-size:$textLg;
+	
+}

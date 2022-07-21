@@ -113,6 +113,13 @@ strong {
 .scale:hover {
   transform: scale(1.6); }
 
+.btn-botton {
+  background-color: gray;
+  color: #040404;
+  border: none;
+  font-family: "kdam thmor pro", sans-serif;
+  font-size: 1.8rem; }
+
 .cuerpo p {
   position: relative;
   top: 30px; }
