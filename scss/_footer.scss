@@ -4,12 +4,18 @@
 		bottom: auto;
 		text-align:center;
 		position: relative;
+		p{
+			font-size:$textMd; 
+			color:$keyColor; 
+		}
 	a{
 		display:inline;
 		left:40px;
+		margin: 5px;
+		position: 5px;
 	}
 	img{
-		width:40px;
+		width:35px;
 	}
 
 	}

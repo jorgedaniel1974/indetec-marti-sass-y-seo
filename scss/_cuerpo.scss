@@ -13,12 +13,11 @@ img{
 
 }
 h1{
-	@include texto (1.5rem, 2, $secondaryColor);
+	@include texto ($textMd, 2, $secondaryColor);
 }
 h2{
-	@include texto (1.5rem, 2, $secondaryColor);
+	@include texto ($textMd, 2, $secondaryColor);
 }
 h5{
-	@include texto (1.5rem, 2, $secondaryColor);
+	@include texto ($textMd, 2, $secondaryColor);
 }
-

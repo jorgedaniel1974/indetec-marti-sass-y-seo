@@ -6,7 +6,13 @@ $paleta:(
 	);
 .accordion-button{
 	background-color: map-get($map: $paleta, $key:"dos");
-	color: map-get($map: $paleta, $key:"uno");
+	color: map-get($map: $paleta, $key:"cuatro");
+	margin: 0;
+	position: 0;
+	width: 100%;
+	font-family:$mainFont; 
+	font-size: $textMd;
+	font-style: italic;
 }
 .interior{
 	background-color: map-get($map: $paleta, $key:"dos");
