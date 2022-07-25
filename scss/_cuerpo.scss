@@ -21,3 +21,7 @@ h2{
 h5{
 	@include texto ($textMd, 2, $secondaryColor);
 }
+.formulario{
+	margin: 15px;
+	position: 15px;
+}
